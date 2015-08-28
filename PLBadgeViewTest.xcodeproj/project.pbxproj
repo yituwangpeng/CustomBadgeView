@@ -14,6 +14,7 @@
 		F5A4E9AB1B8FFC38004BF83F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A4E9AA1B8FFC38004BF83F /* Images.xcassets */; };
 		F5A4E9AE1B8FFC38004BF83F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A4E9AC1B8FFC38004BF83F /* LaunchScreen.xib */; };
 		F5A4E9BA1B8FFC38004BF83F /* PLBadgeViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4E9B91B8FFC38004BF83F /* PLBadgeViewTestTests.m */; };
+		F5A4E9C61B8FFC56004BF83F /* PLBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4E9C51B8FFC56004BF83F /* PLBadgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F5A4E9B31B8FFC38004BF83F /* PLBadgeViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLBadgeViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A4E9B81B8FFC38004BF83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A4E9B91B8FFC38004BF83F /* PLBadgeViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLBadgeViewTestTests.m; sourceTree = "<group>"; };
+		F5A4E9C41B8FFC56004BF83F /* PLBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLBadgeView.h; sourceTree = "<group>"; };
+		F5A4E9C51B8FFC56004BF83F /* PLBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLBadgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		F5A4E99C1B8FFC38004BF83F /* PLBadgeViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				F5A4E9C31B8FFC56004BF83F /* PLBadgeView */,
 				F5A4E9A11B8FFC38004BF83F /* AppDelegate.h */,
 				F5A4E9A21B8FFC38004BF83F /* AppDelegate.m */,
 				F5A4E9A41B8FFC38004BF83F /* ViewController.h */,
@@ -117,6 +121,15 @@
 				F5A4E9B81B8FFC38004BF83F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A4E9C31B8FFC56004BF83F /* PLBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4E9C41B8FFC56004BF83F /* PLBadgeView.h */,
+				F5A4E9C51B8FFC56004BF83F /* PLBadgeView.m */,
+			);
+			path = PLBadgeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				F5A4E9A61B8FFC38004BF83F /* ViewController.m in Sources */,
 				F5A4E9A31B8FFC38004BF83F /* AppDelegate.m in Sources */,
+				F5A4E9C61B8FFC56004BF83F /* PLBadgeView.m in Sources */,
 				F5A4E9A01B8FFC38004BF83F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "PLBadgeView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    PLBadgeView *badgeView = [[PLBadgeView alloc] initWithFrame:CGRectMake(50,50,6.0,6.0)];
+    [self.view addSubview:badgeView];
 }
 
 - (void)didReceiveMemoryWarning {
