@@ -25,6 +25,8 @@
     badgeView2.text = @"123";
     [self.view addSubview:badgeView2];
     
+    //改动
+    
 }
 
 - (void)didReceiveMemoryWarning {
