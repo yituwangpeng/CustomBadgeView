@@ -21,7 +21,13 @@
     PLBadgeView *badgeView = [[PLBadgeView alloc] initWithFrame:CGRectMake(50,50,6.0,6.0)];
     [self.view addSubview:badgeView];
     
+
     //修改
+
+
+    //改动
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
