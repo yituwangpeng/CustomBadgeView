@@ -18,13 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    PLBadgeView *badgeView1 = [[PLBadgeView alloc] initWithFrame:CGRectMake(50,50,6.0,6.0)];
-    [self.view addSubview:badgeView1];
+    PLBadgeView *badgeView = [[PLBadgeView alloc] initWithFrame:CGRectMake(50,50,6.0,6.0)];
+    [self.view addSubview:badgeView];
     
-    PLBadgeView *badgeView2 = [[PLBadgeView alloc] initWithFrame:CGRectMake(100,100,20.0,20.0)];
-    badgeView2.text = @"123";
-    [self.view addSubview:badgeView2];
-    
+    //修改
 }
 
 - (void)didReceiveMemoryWarning {
